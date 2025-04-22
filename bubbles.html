@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tecno</title>
+
+    <style>
+
+        *{
+        margin : 0;
+        padding : 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .section1{
+            height : 180vh;
+            width : 100%;
+            border  : 1px solid;
+            padding : 1px;
+            background-image: url(./images/dark-bg.jpg);
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .bg_circles{
+            height : 100%;
+            width : 100%;
+            position: relative;
+        }
+        #sec1circle1{
+            height : 100px;
+            width : 100px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle1;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle1 {
+            0%{
+                margin-top: 1200px;
+                margin-left: 200px;
+            }
+            100%{
+                margin-top: 100px;
+                margin-left: 200px;
+            }
+        }
+        #sec1circle2{
+            height : 70px;
+            width : 70px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle2;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle2 {
+            0%{
+                margin-top: 1200px;
+                margin-left: 50px;
+            }
+            100%{
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+        }
+        #sec1circle3{
+            height : 20px;
+            width : 20px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle3;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle3 {
+            0%{
+                margin-top: 1200px;
+                margin-left: 450px;
+            }
+            100%{
+                margin-top: 0px;
+                margin-left: 450px;
+            }
+        }
+        
+        #sec1circle4{
+            height : 200px;
+            width : 200px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle4;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle4 {
+            0%{
+                margin-top: 1200px;
+                margin-left: 500px;
+            }
+            100%{
+                margin-top: 10px;
+                margin-left: 100px;
+            }
+        }
+        #sec1circle5{
+            height : 70px;
+            width : 70px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle5;
+            animation-duration: 6s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle5 {
+            0%{
+                margin-top: 1200px;
+                margin-left: 600px;
+            }
+            100%{
+                margin-top: 10px;
+                margin-left: 900px;
+            }
+        }
+        #sec1circle6{
+            height : 120px;
+            width : 120px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle6;
+            animation-duration: 7s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle6 {
+            0%{
+                margin-top: 1200px;
+                margin-left: 700px;
+            }
+            100%{
+                margin-top: 10px;
+                margin-left: 700px;
+            }
+        }
+        #sec1circle7{
+            height : 40px;
+            width : 40px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle7;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle7 {
+            0%{
+                margin-top: 1150px;
+                margin-left: 1000px;
+            }
+            100%{
+                margin-top: 80px;
+                margin-left: 1200px;
+            }
+        }
+         
+        #sec1circle8{
+            height : 40px;
+            width : 40px;
+            border-radius: 50%;
+            background-color: rgba(104, 152, 230, 0.199);
+            display: inline-block;
+            vertical-align: top;
+            animation-name: upcircle8;
+            animation-duration: 9s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            position: absolute;
+        }
+        @keyframes upcircle8 {
+            0%{
+                margin-top: 1130px;
+                margin-left: 700px;
+            }
+            100%{
+                margin-top: 150px;
+                margin-left: 1100px;
+            }
+        }
+
+        .sec1topcontent{
+            height : 50px;
+            width : 100%;
+            background-color: rgb(12,90,219);
+            margin-top: -1370px;
+            position: relative;
+        }
+
+        .sec1topboxes{
+            height : 40px;
+            width : 300px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            margin : 5px 130px;
+            padding: 1px;
+        }
+        .a2{
+            margin-left: 280px;
+            width : 120px;
+            height : 30px;
+            margin-top: 10px;
+        }
+        .a1{
+            width : 550px
+        }
+        .a1icons3{
+            color : white;
+            margin: 3px 3px;
+        }
+        #a1_iconhead1{
+            height : 30px;
+            width : 170px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            margin : 4px 3px;
+            padding: 1px;
+        }
+        #a1_icon1{
+            height : 25px;
+            width : 25px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        #a1_head1{
+            height : 25px;
+            width : 135px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        #a1_head1text{
+            color : white;
+            margin-top: 4px;
+        }
+        #a1_iconhead2{
+            height : 30px;
+            width : 195px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 4px;
+        }
+        #a1_iconhead3{
+            height : 30px;
+            width : 150px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 4px;
+            margin-left: 7px;
+        }
+        #a1_icon2{
+            height : 25px;
+            width : 25px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        #a1_head2{
+            height : 25px;
+            width : 160px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        #a1_head1text2{
+            color : white;
+            margin-top: 4px;
+        }
+        #a1_icon3{
+            height : 25px;
+            width : 25px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        #a1_head3{
+            height : 25px;
+            width : 115px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        #a1_head1text3{
+            color : white;
+            margin-top: 4px;
+        }
+        .a2_icons{
+            height : 25px;
+            width  :25px;
+            /* border  : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        .a2icons4{
+            color : white;
+            margin : 5px 5px;
+            cursor: pointer;
+        }
+
+        #sec1_navbar{
+            height : 70px;
+            width : 100%;
+            border : 1px solid white;
+            position: relative;
+            padding: 1px;
+        }
+        #logo1{
+            height : 50px;
+            width : 160px;
+            border : 1px solid white;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 10px;
+            margin-left: 140px;
+            cursor: pointer;
+        }
+        #sec1nav_ul{
+            height : 50px;
+            width : 700px;
+            /* border : 1px solid white; */
+            display: inline-block;
+            vertical-align: top;
+            margin-top : 15px;
+            margin-left: 280px;
+        }
+        #list1{
+            height : 50px;
+            width : 110px;
+            list-style: none;
+            color : white;
+            display: inline-block;
+            /* border: 1px solid white; */
+            /* padding: 18px; */
+            cursor: pointer;
+            position: relative;
+        }
+        .angdown{
+            position: absolute;
+            margin-left: 20px;
+            display: inline-block;
+            /* margin-top: -15px; */
+        }
+        #homecategory{
+            height : 550px;
+            width : 270px;
+            background-color: white;
+            position: absolute;
+            top: 42px ;
+            left : 20px;
+            border-radius: 12px;
+            /* opacity: 0; */
+            visibility: hidden;
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+        }
+        #list1:hover #homecategory{
+            /* opacity: 1; */
+            visibility: visible;
+            margin-top: 10px;
+        }
+        #homecategory:hover #list2{
+            color: blue;
+        }
+        #list2{
+            list-style: none;
+            color : rgba(0, 0, 0, 0.438);
+            margin-top: 18px;
+            margin-left: 15px;
+            position: relative;
+            /* border: 2px solid red; */
+        }
+        .angright1{
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        #addedcategory{
+            height : 280px;
+            width : 270px;
+            background-color: white;
+            left: 252px;
+            top : -5px;
+            /* border  :1px solid black; */
+            position: absolute;
+            border-radius: 12px;
+            visibility: hidden;
+        }
+        #list2:hover #addedcategory{
+            visibility: visible;
+        }
+        #listaddcate{
+            list-style: none;
+            
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        #newdcategory{
+            height : 150px;
+            width : 270px;
+            background-color: white;
+            left: 250px;
+            top : -10px;
+            /* border  :1px solid black; */
+            position: absolute;
+            border-radius: 12px;
+            visibility: hidden;
+        }
+        #list2:hover #newdcategory{
+            visibility: visible;
+        }
+        #listnewdemo{
+            list-style: none;
+            
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        #companycategory{
+            height : 500px;
+            width : 270px;
+            background-color: white;
+            left: 20px;
+            top : 42px;
+            /* border  :1px solid black; */
+            position: absolute;
+            border-radius: 12px;
+            visibility: hidden;
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+        }
+        #list1:hover #companycategory{
+            visibility: visible;
+            margin-top: 10px;
+        }
+        #list3{
+            list-style: none;
+            margin-top: 18px;
+            color : rgba(0, 0, 0, 0.548);
+            margin-left: 15px;
+        }
+        #aboutcategory{
+            height : 70px;
+            width : 200px;
+            background-color: white;
+            position: absolute;
+            left: 270px;
+            top : 15px;
+            border-radius: 5px;
+            visibility: hidden;
+        }
+        #list3:hover #aboutcategory{
+            visibility: visible;
+        }
+        #listaboutcate{
+            list-style: none;
+            color : rgba(0, 0, 0, 0.507);
+            margin : 10px 15px;
+        }
+        #portcategory{
+            height : 200px;
+            width : 220px;
+            background-color: white;
+            position: absolute;
+            /* border: 1px solid red; */
+            left: 270px;
+            top : 55px;
+            border-radius: 5px;
+            visibility: hidden;
+        }
+        #list3:hover #portcategory{
+            visibility: visible;
+        }
+        #listportcate{
+            list-style: none;
+            color : rgba(0, 0, 0, 0.507);
+            margin : 20px 15px;
+        }
+        #oursercategory{
+            height : 200px;
+            width : 220px;
+            background-color: white;
+            position: absolute;
+            /* border: 1px solid red; */
+            left: 270px;
+            top : 95px;
+            border-radius: 5px;
+            visibility: hidden;
+        }
+        #list3:hover #oursercategory{
+            visibility: visible;
+        }
+        #listsercate{
+            list-style: none;
+            color : rgba(0, 0, 0, 0.507);
+            margin : 20px 15px;
+        }
+        #elementcategory{
+            height : 180px;
+            width : 200px;
+            background-color: white;
+            position: absolute;
+            left: 270px;
+            top : 270px;
+            border-radius: 5px;
+            visibility: hidden;
+        }
+        #list3:hover #elementcategory{
+            visibility: visible;
+        }
+        #listelementcate{
+            list-style: none;
+            color : rgba(0, 0, 0, 0.507);
+            margin : 10px 15px;
+        }
+        #shopcategory{
+            height :70px;
+            width : 200px;
+            background-color: white;
+            position: absolute;
+            /* border : 1px solid yellow; */
+            left: 270px;
+            top : 230px;
+            border-radius: 5px;
+            visibility: hidden;
+        }
+        #list3:hover #shopcategory{
+            visibility: visible;
+        }
+        #listshopcate{
+            list-style: none;
+            color : rgba(0, 0, 0, 0.507);
+            margin : 10px 15px;
+        }
+        #servicescategory{
+            height : 250px;
+            width : 230px;
+            background-color: white;
+            position: absolute;
+            left : 20px;
+            top : 42px;
+            border-radius: 12px;
+            visibility: hidden;
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+        }
+        #list1:hover #servicescategory{
+            visibility: visible;
+            margin-top: 10px;
+        }
+        #listservices{
+            list-style: none;
+            margin-left: 15px;
+            margin-top: 20px;
+            color : rgba(0, 0, 0, 0.438)
+        }
+        #itcategory{
+            height : 250px;
+            width : 230px;
+            background-color: white;
+            position: absolute;
+            left : 20px;
+            top : 42px;
+            border-radius: 12px;
+            visibility: hidden;
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+        }
+        #list1:hover #itcategory{
+            visibility: visible;
+            margin-top: 10px;
+        }
+        #listit{
+            list-style: none;
+            margin-left: 15px;
+            margin-top: 20px;
+            color : rgba(0, 0, 0, 0.438)
+        }
+        #blogcategory{
+            height : 150px;
+            width : 230px;
+            background-color: white;
+            position: absolute;
+            left : 20px;
+            top : 42px;
+            border-radius: 12px;
+            visibility : hidden;
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+        }
+        #list1:hover #blogcategory{
+            visibility: visible;
+            margin-top: 10px;
+        }
+        #listblog{
+            list-style: none;
+            margin-left: 15px;
+            margin-top: 20px;
+            color : rgba(0, 0, 0, 0.438)
+        }
+        #contactcategory{
+            height : 180px;
+            width : 230px;
+            background-color: white;
+            position: absolute;
+            left : 20px;
+            top : 42px;
+            border-radius: 12px;
+            visibility: hidden;
+            transition-property: all;
+            transition-duration: .3s;
+            transition-timing-function: linear;
+        }
+        #list1:hover #contactcategory{
+            visibility: visible;
+            margin-top: 10px;
+        }
+        #listcontact{
+            list-style: none;
+            margin-left: 15px;
+            margin-top: 20px;
+            color : rgba(0, 0, 0, 0.438)
+        }
+    </style>
+</head>
+<body>
+    <div class = "section1">
+        <div class = "bg_circles">
+            <div id = "sec1circle1"></div>
+            <div id = "sec1circle2"></div>
+            <div id = "sec1circle3"></div>
+            <div id = "sec1circle4"></div>
+            <div id = "sec1circle5"></div>
+            <div id = "sec1circle6"></div>
+            <div id = "sec1circle7"></div>
+            <div id = "sec1circle8"></div>
+        </div>
+        <div class = "sec1topcontent">
+            <div class = "sec1topboxes a1">
+                <div id = "a1_iconhead1">
+                    <div id = "a1_icon1"><i class="fa-regular fa-envelope a1icons3"></i></div>
+                    <div id = "a1_head1">
+                        <h5 id = "a1_head1text">example@gmail.com</h5>
+                    </div>
+                </div>
+                <div id = "a1_iconhead2">
+                    <div id = "a1_icon2"><i class="fa-solid fa-location-dot a1icons3"></i></div>
+                    <div id = "a1_head2">
+                        <h5 id = "a1_head1text2">24/5, 1st Floor, Kurigram</h5>
+                    </div>
+                </div>
+                <div id = "a1_iconhead3">
+                    <div id = "a1_icon3"><i class="fa-solid fa-phone a1icons3"></i></div>
+                    <div id = "a1_head3">
+                        <h5 id = "a1_head1text3">+ (1800) 456 7890</h5>
+                    </div>
+                </div>
+            </div>
+            <div class = "sec1topboxes a2">
+                <div class = "a2_icons b1"><i class="fa-brands fa-facebook-f a2icons4"></i></div>
+                <div class = "a2_icons b2"><i class="fa-brands fa-twitter a2icons4"></i></div>
+                <div class = "a2_icons b3"><i class="fa-brands fa-pinterest-p a2icons4"></i></div>
+                <div class = "a2_icons b4"><i class="fa-brands fa-linkedin-in a2icons4"></i></div>
+            </div>
+        </div>
+        <nav id = "sec1_navbar">
+            <div id = "logo1">
+                <img src="./images/tr-logo.png" alt="">
+            </div>
+            <ul id = "sec1nav_ul">
+                <li id = "list1">Home <i class="fa-solid fa-angle-down angdown"></i>
+                    <div id = "homecategory">
+                        <ul id = "homecate_ul">
+                            <li id = "list2">Home Page Main</li>
+                            <li id = "list2">Added New Demo <i class="fa-solid fa-angle-right angright1"></i>
+                                <div id = "addedcategory">
+                                    <ul id = "addcate_ul">
+                                        <li id = "listaddcate">HomePage Main (Updated)</li>
+                                        <li id = "listaddcate">New Demo One</li>
+                                        <li id = "listaddcate">New Demo Two</li>
+                                        <li id = "listaddcate">CyberSecurity</li>
+                                        <li id = "listaddcate">Business Consulting</li>
+                                        <li id = "listaddcate">Dark Version New</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id = "list2">New Demo 2021 <i class="fa-solid fa-angle-right angright1"></i>
+                                <div id = "newdcategory">
+                                    <ul id = "newd_ul">
+                                        <li id = "listnewdemo">New Demo-01(2021)</li>
+                                        <li id = "listnewdemo">New Demo-02(2021)</li>
+                                        <li id = "listnewdemo">AI & Data Science</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id = "list2">Homepage Two</li>
+                            <li id = "list2">Homepage Three</li>
+                            <li id = "list2">Homepage Four</li>
+                            <li id = "list2">Homepage Five</li>
+                            <li id = "list2">Homepage Six</li>
+                            <li id = "list2">Homepage Seven</li>
+                            <li id = "list2">Homepage Eight</li>
+                            <li id = "list2">Homepage Nine(Animate)</li>
+                            <li id = "list2">Homepage Ten</li>
+                            <li id = "list2">Landing Page One</li>
+                        </ul>
+                    </div>
+                </li>
+                <li id = "list1">Company <i class="fa-solid fa-angle-down angdown"></i>
+                    <ul id = "companycategory">
+                        <li id = "list3">About us <i class="fa-solid fa-angle-right angright1"></i>
+                            <div id = "aboutcategory">
+                                <ul id = "aboutcate_ul">
+                                    <li id = "listaboutcate">About-Style-Two</li>
+                                    <li id = "listaboutcate">About-Style-Three</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id = "list3">Portfolio <i class="fa-solid fa-angle-right angright1"></i>
+                            <div id = "portcategory">
+                                <ul id = "portcate_ul">
+                                    <li id = "listportcate">Portfolio 2Column</li>
+                                    <li id = "listportcate">Portfolio 3Column</li>
+                                    <li id = "listportcate">Portfolio 4Column Wide</li>
+                                    <li id = "listportcate">Portfolio Details</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id = "list3">Our Service <i class="fa-solid fa-angle-right angright1"></i>
+                            <div id = "oursercategory">
+                                <ul id = "oursercate_ul">
+                                    <li id = "listsercate">Service Style One</li>
+                                    <li id = "listsercate">Service Style Two</li>
+                                    <li id = "listsercate">Service Style Three</li>
+                                    <li id = "listsercate">Service Style Four</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id = "list3">Service Details</li>
+                        <li id = "list3">Team Member</li>
+                        <li id = "list3">Single Team</li>
+                        <li id = "list3">Shop <i class="fa-solid fa-angle-right angright1"></i>
+                            <div id = "shopcategory">
+                                <ul id = "shopcate_ul">
+                                    <li id = "listshopcate">Check Out</li>
+                                    <li id = "listshopcate">Cart</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li id = "list3">Elements <i class="fa-solid fa-angle-right angright1"></i>
+                            <div id = "elementcategory">
+                                <ul id = "elementcate_ul">
+                                    <li id = "listelementcate">Services</li>
+                                    <li id = "listelementcate">Info Box</li>
+                                    <li id = "listelementcate">Pricing</li>
+                                    <li id = "listelementcate">Team</li>
+                                    <li id = "listelementcate">CountDown</li>
+                                    <li id = "listelementcate">Accordion</li>
+                                </ul>
+                            </div></li>
+                        <li id = "list3">Case Study</li>
+                        <li id = "list3">Case Study Details</li>
+                        <li id = "list3">Why Choose Us</li>
+                        <li id = "list3">Pricing Plan</li>
+                        <li id = "list3">FAQs</li>
+                    </ul>
+                </li>
+                <li id = "list1">Services <i class="fa-solid fa-angle-down angdown"></i>
+                    <div id = "servicescategory">
+                        <ul id = "services_ul">
+                            <li id = "listservices">Service Style One</li>
+                            <li id = "listservices">Service Style Two</li>
+                            <li id = "listservices">Service Style Three</li>
+                            <li id = "listservices">Service Style Four</li>
+                            <li id = "listservices">Service Details</li>
+                        </ul>
+                    </div>
+                </li>
+                <li id = "list1">IT Solution <i class="fa-solid fa-angle-down angdown"></i>
+                    <div id = "itcategory">
+                        <ul id = "it_ul">
+                            <li id = "listit">IT Services</li>
+                            <li id = "listit">Managed It Services</li>
+                            <li id = "listit">Industries</li>
+                            <li id = "listit">Business Solutions</li>
+                            <li id = "listit">IT Service Details</li>
+                        </ul>
+                    </div>
+                </li>
+                <li id = "list1">Blog <i class="fa-solid fa-angle-down angdown"></i>
+                    <div id = "blogcategory">
+                        <ul id = "blog_ul">
+                            <li id = "listblog">Blog List</li>
+                            <li id = "listblog">Blog Grid</li>
+                            <li id = "listblog">Blog 2 Column</li>
+                            
+                        </ul>
+                    </div>
+                </li>
+                <li id = "list1">Contact <i class="fa-solid fa-angle-down angdown"></i>
+                    <div id = "contactcategory">
+                        <ul id = "contact_ul">
+                            <li id = "listcontact">Contact-Style-One</li>
+                            <li id = "listcontact">Contact-Style-Two</li>
+                            <li id = "listcontact">Contact-Style-Three</li>
+                            <li id = "listcontact">Contact-Style-Four</li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
